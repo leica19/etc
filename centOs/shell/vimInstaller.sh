@@ -1,9 +1,9 @@
 
 sudo yum list installed | grep vim
-sudo yum install mercurial
-sudo yum install ncurses-devel
+sudo yum install -y mercurial
+sudo yum install -y ncurses-devel
 # for rainy day
-sudo yum install gcc
+sudo yum install -y gcc
 cd /usr/local/src
 # get code 
 sudo hg clone https://bitbucket.org/vim-mirror/vim vim
